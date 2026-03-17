@@ -9,3 +9,7 @@ console.log("First paragraph:", firstText);
 // 🔹 Select all paragraphs
 const allParagraphs = document.querySelectorAll("p");
 console.log("All paragraphs:", allParagraphs);
+
+title.addEventListener("click", function() {
+    title.textContent = "You clicked me 😤🔥";
+});
