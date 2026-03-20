@@ -19,3 +19,10 @@ btn.addEventListener('mouseover', function() {
 btn.addEventListener('mouseout', function() {
     message.textContent = "Mouse left the button 😐";
 });
+
+const body = document.body;
+
+// Change background color when button clicked
+btn.addEventListener('click', function() {
+    body.style.backgroundColor = "lightblue";
+});
